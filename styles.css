@@ -490,7 +490,7 @@ img { max-width: 100%; display: block; }
 .contact {
   position: relative; z-index: 1;
   padding: 6rem 1.5rem 3rem;
-  max-width: 1000px; margin: 0 auto;
+  max-width: 1500px; margin: 0 auto;
 }
 .contact-grid {
   display: grid;
@@ -530,6 +530,9 @@ img { max-width: 100%; display: block; }
   -webkit-text-fill-color: transparent;
 }
 
+
+
+
 /* ---------- FOOTER ---------- */
 .footer {
   margin-top: 4rem;
@@ -540,7 +543,7 @@ img { max-width: 100%; display: block; }
   color: var(--muted); font-size: 14px;
 }
 
-/* ---------- Scroll-reveal classes (set by JS via IntersectionObserver) ---------- */
+/* ---------- Scroll-reveal classes  ---------- */
 .reveal-up {
   opacity: 0; transform: translateY(60px);
   transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2,0.8,0.2,1);
